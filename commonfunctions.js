@@ -12,7 +12,7 @@ insertOrUpdate = async (Model, data) => {
   console.log('que in  insertOrUpdate', que.toString())
   return Model.raw(que);
 }
-
+// hi
 var key = 'example'
 
 updateForDel = async (Model, data) => {
